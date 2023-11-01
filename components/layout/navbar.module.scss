@@ -1,0 +1,47 @@
+$primary:#faa14f;
+$light: #fafafa;
+$dark:#1D242C;
+
+.bar{
+    position: relative;
+    // position: fixed;
+    // margin-bottom: 60px;
+    background-color: $light;
+    box-shadow:1px 1px 10px #1d242c51;
+    text-align: center;
+    height: 60px;
+    align-items: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.sign{
+    border: none;
+    background: $primary;
+    color: $light;
+    padding-inline: 10px;
+    padding-block: 5px;
+}
+
+.sign:hover{
+    color:  $light;
+    background:$dark ;
+    transform: scale(0.95);
+    transition: .4s;
+}
+
+// popup
+
+
+.signPop{
+    width: 300px;
+    text-align: center;
+    box-shadow: 3px 3px 10px #1d242c32;
+    border-radius: 5px;
+    z-index: 999;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 150px);
+    padding: 30px;
+    display: inline-block;
+    background-color: $light;
+}

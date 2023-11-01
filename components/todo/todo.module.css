@@ -1,0 +1,71 @@
+.inputTodo{
+    width: 500px;
+
+}
+.todoItems{
+    width: 500px;
+}
+.todobar-compeleted{
+    background: #3d464f;
+    margin-block: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 30px;
+}
+.todobar{
+    min-height: 50px;
+    background: #fafafa;
+    margin-block: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 30px;
+}
+.active{
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+}
+
+.compeleted{
+    color: rgb(96, 94, 94);
+    text-decoration: line-through;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+}
+
+.btn-active{
+    background: rgb(255, 106, 0);
+}
+
+.btn-normal{
+    border: 0px;
+    background: rgb(255, 234, 219);
+}
+.input-focus{
+    min-height: 55px;
+    border-radius: 20px;
+    width: 460px;
+    border: 2px solid orange;
+}
+
+.editbtn{
+    background: #69bcff;
+    border: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
+.removebtn{
+    background: #ff6969;
+    border: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
